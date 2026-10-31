@@ -1,0 +1,31 @@
+{
+  "name": "solana-agentic-grant-application",
+  "version": "1.0.0",
+  "description": "Autonomous MEV & Priority Fee Telemetry Agent on Solana built with Agentic AI workflows for Superteam Earn Grant",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "node --test dist/test.js"
+  },
+  "keywords": [
+    "solana",
+    "superteam",
+    "agentic-engineering",
+    "ai",
+    "mev",
+    "telemetry"
+  ],
+  "author": "NePreby <haokun1135@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.8",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
